@@ -159,7 +159,7 @@ sendPacket(false, "action|respawn", 2)
 ## sendPacketRaw
 `sendPacketRaw(bool client, GamePacket packet)`
 
-Sends [GamePacket](Structs.md#gamepacket) to server or client, if client is set to true then it sends to client and if its false it sends to server.
+Sends [GamePacket](#gamepacket) to server or client, if client is set to true then it sends to client and if its false it sends to server.
 
 Example:
 ```lua
@@ -172,7 +172,7 @@ sendPacketRaw(false, packet)
 ## sendVarlist
 `sendVarlist(Variantlist varlist)`
 
-Sends [Variantlist](Structs.md#variantlist) to client
+Sends [Variantlist](#variantlist) to client
 
 Example:
 ```lua
@@ -208,7 +208,7 @@ findPath(0, 0)
 ## getLocal
 `getLocal()`
 
-Returns local [NetAvatar](#Structs.md#netavatar) struct
+Returns local [NetAvatar](#netavatar) struct
 
 Example:
 ```lua
@@ -220,7 +220,7 @@ log(me.name)
 ## getInventory
 `getInventory()`
 
-Returns table of [InventoryItems](Structs.md#inventoryitem)
+Returns table of [InventoryItems](#inventoryitem)
 
 Example:
 ```lua
@@ -233,7 +233,7 @@ end
 ## getPlayers
 `getPlayers()`
 
-Returns table of [NetAvatars](Structs.md#netavatar)
+Returns table of [NetAvatars](#netavatar)
 
 Example:
 ```lua
@@ -246,7 +246,7 @@ end
 ## getObjects
 `getObjects()`
 
-Returns table of [WorldObjects](Structs.md#worldobject)
+Returns table of [WorldObjects](#worldobject)
 
 Example:
 ```lua
@@ -259,7 +259,7 @@ end
 ## getTile
 `getTile(int x, int y)`
 
-Returns world [Tile](Structs.md#tile) in selected position
+Returns world [Tile](#tile) in selected position
 
 Example:
 ```lua
@@ -271,7 +271,7 @@ log(tile.fg)
 ## getTiles
 `getTiles()`
 
-Returns table of [Tiles](Structs.md#tile)
+Returns table of [Tiles](#tile)
 
 Example:
 ```lua
@@ -284,7 +284,7 @@ end
 ## getItemInfo
 `getItemInfo(int itemid)`
 
-Returns [ItemInfo](Structs.md#iteminfo) of selected Item ID
+Returns [ItemInfo](#iteminfo) of selected Item ID
 
 Example:
 ```lua
